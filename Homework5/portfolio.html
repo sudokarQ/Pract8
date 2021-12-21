@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <!-- Главный блок всей страницы (обертка) -->
+    <!-- Навигация  -->
+    <header class="h">
+      <a href="index.html">
+        <img class="logo"
+          src="https://static8.depositphotos.com/1378583/1010/i/950/depositphotos_10108949-stock-photo-blue-flame-logo.jpg"
+          alt="logo" />
+      </a>
+      <h1>Компания разработки сайтов CheckTheSite</h1>
+    </header>
+    <!-- Тэг nav -->
+    <nav class="menu-portfolio">
+      <h2 class="hide">Навигация</h2>
+      <ul class="menu-items">
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="catalog.html">Примеры работ</a></li>
+        <li><a href="payment.html">Оплата</a></li>
+        <li><a href="feedback.html">Связаться с нами</a></li>
+        <li><a href="portfolio.html">О разработчике</a></li>
+      </ul>
+    </nav>
+    <!-- Блок всего контента страницы -->
+    <section class="wrapper">
+      <h2 class="hide">Информация о разработчике</h2>
+      <article>
+        <header>
+          <h2>Обо мне</h2>
+        </header>
+        <div class="about-me">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="ya" />
+        </div>
+        <blockquote class="cite-main">Спасибо, что учите нас чему-то новому</blockquote>
+        <p>
+          Доброго времени суток. Меня зовут Егор. Оканчиваю юридический факультет, даже экзамен сегодня сдаю. Хотелось
+          бы иметь работу, которая не привязывает к определенной стране или юрисдикции. Собственно, поэтому я тут. Люблю
+          проводить время с приятными людьми, играть в футбол и прочие активности.
+        </p>
+      </article>
+    </section> <!-- Нижняя граница контента -->
+    <!-- Авторская часть страницы footer -->
+    <footer>
+      <div>Copyright &copy; 2021 <a href="/" rel="copyright">CheckTheSite Belarus</a>. All rights reserved.</div>
+      <span><a href="#">Inst</a></span>
+      <span><a href="#">VK</a></span>
+      <span>CheckTheSite@mail.ru </span>
+      <span>+375-29-444-4-444</span>
+      <!-- <i class="tag">&lt;footer&gt;</i> -->
+    </footer>
+  </div> <!-- Границы главного блока (обертки) страницы -->
+</body>
+
+</html>
